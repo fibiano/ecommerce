@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:81/www.hcodecommerce.com.br/",
+            "url": "http://localhost:81/ecommerce/",
             "webRoot": "${workspaceFolder}"
         }
     ]

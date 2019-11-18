@@ -2,7 +2,7 @@
 
 <?php
 
-
+echo "config";
 
 spl_autoload_register(function($nome_classe){
     
@@ -13,7 +13,7 @@ $dir_classe="classes";
         require_once($dir_classe.DIRECTORY_SEPARATOR.$nome_classe.".php");
     }
 
-   // var_dump($nome_classe);
+    var_dump($nome_classe);
 
 });
 
